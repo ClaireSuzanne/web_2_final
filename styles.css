@@ -204,6 +204,12 @@ width: 1440px;
     margin-left: 2.113rem;
 }
 
+.logo-white {
+    color: #FFFFFF;
+    width: 30.64px;
+    margin-right: 3.459rem;
+}
+
 .hero-text {
    font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -247,12 +253,37 @@ font-family: "Montserrat", sans-serif;
 }
 
 .message-from-director {
-  width: 617;
+  width: 617px;
   background-color: #FFFFFF;
 }
 
 .quote {
-   width: 617;
+   width: 617px;
    background-color: #DFD9FF;
 background-image: url("images/ballet-image.png");
+}
+
+.faculty {
+  width: 617px;
+  background-color: #FFFFFF;
+}
+
+.housing {
+  width: 617px;
+  background-color: #DFD9FF;
+}
+
+.btn-footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 1.0rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  margin-bottom: 6.66 rem;
+  margin-right: 73.86rem;
+  text-align: left;
+  text-decoration: none;
+  width: 108.21px;
+  white-space: nowrap;
 }
