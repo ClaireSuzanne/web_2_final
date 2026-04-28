@@ -45,14 +45,84 @@ Black: #000000;
 
 */
 
-body {
+.body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: regular;
   font-size: 1.1rem;
   line-height: 1.3rem;
   color: #000000;
-  width: 1440px;
+  width: 450.73px;
+}
+
+.body-2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  color: #000000;
+  width: 223.21px;
+}
+
+.signature {
+   font-family: "Aguafina Script", display;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  color: #000000;
+  width: 73.18px;
+}
+
+.signature-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 1.0rem;
+  line-height: 1.2rem;
+  color: #000000;
+  width: 149.72px;
+}
+
+.dancer-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: semi-bold;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  color: #000000;
+  width: 245.66px;
+}
+
+.footer-links {
+   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 1.0rem;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  width: 108.21px;
+}
+
+.phone {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FFFFFF;
+  width: 170.56px;
+}
+
+.right-footer-links {
+   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 0.8rem;
+  line-height: 1.0rem;
+  color: #FFFFFF;
+  width: 108.21px;
 }
 
 .white-btn {
@@ -136,4 +206,28 @@ body {
   line-height: 7.7rem;
   color: #FFFFFF;
   width: 432.79px;
+}
+
+.white-h {
+font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size:1.6rem;
+  line-height: 2.0rem;
+  color: #FFFFFF;
+  width: 276.529px;
+}
+
+.black-h {
+font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: semi-bold;
+  font-size: 2.0rem;
+  line-height: 2.4rem;
+  color: #000000;
+  width: 331.84px;
+}
+
+.blue-h {
+
 }
