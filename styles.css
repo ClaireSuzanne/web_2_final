@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,600;1,600&family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,500;1,500&family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital@0;1&family=Prata&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Bebas+Neue&family=Montserrat:ital@0;1&family=Prata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap");
 /*
 FONTS
 
@@ -17,7 +17,7 @@ FONTS
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: regular;
+  font-style: normal;
 }
 
 
@@ -25,7 +25,7 @@ FONTS
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
-  font-style: medium;
+  font-style: normal;
 }
 
 
@@ -33,8 +33,22 @@ FONTS
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-style: semibold;
+  font-style: normal;
 }
+
+.aguafina-script-regular {
+  font-family: "Aguafina Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 COLORS
 
@@ -46,7 +60,7 @@ Black: #000000;
 */
 
 .hero {
-width: 1440px;
+max-width: 1440px;
  background-image: url("images/hero-image.png");
   background-repeat: no-repeat;
 }
@@ -54,7 +68,6 @@ width: 1440px;
 .body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-style: regular;
   font-size: 1.1rem;
   line-height: 1.3rem;
   color: #000000;
@@ -64,7 +77,6 @@ width: 1440px;
 .body-2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-style: regular;
   font-size: 1.3rem;
   line-height: 1.6rem;
   color: #000000;
@@ -74,7 +86,6 @@ width: 1440px;
 .signature {
    font-family: "Aguafina Script", display;
   font-weight: 400;
-  font-style: regular;
   font-size: 1.2rem;
   line-height: 1.9rem;
   color: #000000;
@@ -84,7 +95,6 @@ width: 1440px;
 .signature-title {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-style: regular;
   font-size: 1.0rem;
   line-height: 1.2rem;
   color: #000000;
@@ -94,7 +104,6 @@ width: 1440px;
 .dancer-name {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-style: semi-bold;
   font-size: 1.3rem;
   line-height: 1.6rem;
   color: #000000;
@@ -104,7 +113,6 @@ width: 1440px;
 .footer-links {
    font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-style: regular;
   font-size: 1.0rem;
   line-height: 1.2rem;
   color: #FFFFFF;
@@ -114,7 +122,6 @@ width: 1440px;
 .phone {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-style: medium;
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: #FFFFFF;
@@ -124,7 +131,6 @@ width: 1440px;
 .right-footer-links {
    font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-style: regular;
   font-size: 0.8rem;
   line-height: 1.0rem;
   color: #FFFFFF;
@@ -134,7 +140,6 @@ width: 1440px;
 .white-btn {
      font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-style: semibold;
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: #2200CB;
@@ -158,7 +163,6 @@ width: 1440px;
 .blue-btn {
      font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-style: semibold;
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: #FFFFFF;
@@ -182,7 +186,6 @@ width: 1440px;
 .nav-btn {
      font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-style: semibold;
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: #2200CB;
@@ -195,7 +198,7 @@ width: 1440px;
 }
 
 .nav {
-  width: 617px;
+  max-width: 617px;
 }
 
 .logo {
@@ -213,7 +216,6 @@ width: 1440px;
 .hero-text {
    font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 6.4 rem;
   line-height: 7.7rem;
   color: #FFFFFF;
@@ -225,7 +227,6 @@ width: 1440px;
 .white-h {
 font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-style: medium;
   font-size:1.6rem;
   line-height: 2.0rem;
   color: #FFFFFF;
@@ -235,7 +236,6 @@ font-family: "Montserrat", sans-serif;
 .black-h {
 font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-style: semi-bold;
   font-size: 2.0rem;
   line-height: 2.4rem;
   color: #000000;
@@ -245,7 +245,6 @@ font-family: "Montserrat", sans-serif;
 .blue-h {
 font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 2.0rem;
   line-height: 2.4rem;
   color: #2200CB;
@@ -253,34 +252,33 @@ font-family: "Montserrat", sans-serif;
 }
 
 .message-from-director {
-  width: 617px;
+  max-width: 617px;
   background-color: #FFFFFF;
 }
 
 .quote {
-   width: 617px;
+   max-width: 617px;
    background-color: #DFD9FF;
 background-image: url("images/ballet-image.png");
 }
 
 .faculty {
-  width: 617px;
+  max-width: 617px;
   background-color: #FFFFFF;
 }
 
 .housing {
-  width: 617px;
+  max-width: 617px;
   background-color: #DFD9FF;
 }
 
 .btn-footer {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-style: regular;
   font-size: 1.0rem;
   line-height: 1.2rem;
   color: #FFFFFF;
-  margin-bottom: 6.66 rem;
+  margin-bottom: 6.66rem;
   margin-right: 73.86rem;
   text-align: left;
   text-decoration: none;
@@ -289,26 +287,26 @@ background-image: url("images/ballet-image.png");
 }
 
 .ballet-image {
-  width: 224.77px;
+  max-width: 224.77px;
   align-items: right;
 }
 
 .naomi-image {
-  width: 119.64px;
+  max-width: 119.64px;
   align-items: left;
 }
 
 .bethany-image {
-  width: 119.647px;
+  max-width: 119.647px;
   align-items: center;
 }
 
 .jeremy-image {
-  width: 119.64px;
+  max-width: 119.64px;
   align-items: right;
 }
 
 .housing-image {
-  width: 199.63px;
+  max-width: 199.63px;
   border-radius: 7px;
 }
