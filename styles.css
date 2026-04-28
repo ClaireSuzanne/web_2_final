@@ -287,3 +287,28 @@ background-image: url("images/ballet-image.png");
   width: 108.21px;
   white-space: nowrap;
 }
+
+.ballet-image {
+  width: 224.77px;
+  align-items: right;
+}
+
+.naomi-image {
+  width: 119.64px;
+  align-items: left;
+}
+
+.bethany-image {
+  width: 119.647px;
+  align-items: center;
+}
+
+.jeremy-image {
+  width: 119.64px;
+  align-items: right;
+}
+
+.housing-image {
+  width: 199.63px;
+  border-radius: 7px;
+}
