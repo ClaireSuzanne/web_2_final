@@ -245,3 +245,14 @@ font-family: "Montserrat", sans-serif;
   color: #2200CB;
   width: 331.84px;
 }
+
+.message-from-director {
+  width: 617;
+  background-color: #FFFFFF;
+}
+
+.quote {
+   width: 617;
+   background-color: #DFD9FF;
+background-image: url("images/ballet-image.png");
+}
