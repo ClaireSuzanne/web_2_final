@@ -212,6 +212,8 @@ width: 1440px;
   line-height: 7.7rem;
   color: #FFFFFF;
   width: 432.79px;
+  display: flex;
+    flex-wrap: wrap;
 }
 
 .white-h {
