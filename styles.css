@@ -55,7 +55,7 @@ body {
   width: 1440px;
 }
 
-.btn-1-white {
+.white-btn {
      font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-style: semibold;
@@ -79,7 +79,7 @@ body {
   text-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn-2-blue {
+.blue-btn {
      font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-style: semibold;
@@ -101,6 +101,21 @@ body {
   white-space: nowrap;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-btn {
+     font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #2200CB;
+  margin-bottom: 12.96rem;
+  margin-right: 12.36rem;
+  text-align: center;
+  text-decoration: none;
+  width: 67.96px;
+  white-space: nowrap;
 }
 
 .nav {
