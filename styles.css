@@ -55,7 +55,7 @@ body {
   width: 1440px;
 }
 
-.btn-register {
+.btn-1-white {
      font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-style: semibold;
@@ -79,9 +79,46 @@ body {
   text-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.btn-2-blue {
+     font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #FFFFFF;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0%;
+  border-radius: 7px;
+  margin-bottom: 3.819rem;
+  margin-right: 25.75rem;
+  background-color: #2200CB;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  width: 102px;
+  white-space: nowrap;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav {
+  width: 617px;
+}
+
 .logo {
     color: #000000;
     width: 30.64px;
     margin-left: 2.113rem;
-    
+}
+
+.hero-text {
+   font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6.4 rem;
+  line-height: 7.7rem;
+  color: #FFFFFF;
+  width: 432.79px;
 }
