@@ -45,6 +45,12 @@ Black: #000000;
 
 */
 
+.hero {
+width: 331.84;
+ background-image: url("hero-image.png");
+  background-repeat: no-repeat;
+}
+
 .body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -229,5 +235,11 @@ font-family: "Montserrat", sans-serif;
 }
 
 .blue-h {
-
+font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 2.0rem;
+  line-height: 2.4rem;
+  color: #2200CB;
+  width: 331.84px;
 }
